@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+        <p>Tente abrir esse site em vário dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/foto-p.jpg" type="image/jpg">
+            <source media="(max-width: 1050px )" srcset="imagens/foto-m.jpg" type="image/jpg">
+
+            <img src="imagens/foto-g.jpg" alt="imagem flexivel">
+        
+        </picture> <!--essa tag <picture> ela diz vai aparecer uma imagem, ai e so adicionar a imagem-->
+    <h1>Reproduzindo áudio</h1>
+        <p>Vamos aprende a reproduzir audio em HTML5</p>
+            <audio src="midia/midia.ogg" controls autoplay></audio> <!-- essa é a primeira forma de adiconar audio em um site tag adiciona audio no site-->
+    
+</body>
+</html>

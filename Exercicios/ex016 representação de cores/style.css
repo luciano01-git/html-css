@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body{
+
+    background-image: linear-gradient(to right, #DBF227, #9FC131);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px; /* borda fica redonda*/
+    box-shadow: 5px 5px 15px #52631ab2;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #005C53;
+    text-shadow: 1px 1px 2px #00332eb7;
+
+}
+
+h2{
+    color: #042940;
+}
+
+p{
+    text-align: justify;/* todos os paragrafos vão estar justificados*/
+}
